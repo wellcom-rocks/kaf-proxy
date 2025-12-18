@@ -2,7 +2,11 @@ module github.com/wellcom-rocks/kaf-proxy
 
 go 1.24.9
 
-require github.com/corazawaf/coraza/v3 v3.3.3
+require (
+	github.com/corazawaf/coraza-coreruleset/v4 v4.21.0
+	github.com/corazawaf/coraza/v3 v3.3.3
+	github.com/jcchavezs/mergefs v0.1.0
+)
 
 require (
 	github.com/corazawaf/libinjection-go v0.2.2 // indirect
